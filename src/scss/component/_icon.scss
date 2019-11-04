@@ -1,0 +1,38 @@
+.icon {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    mask-size: 100%;
+    mask-position: center;
+    mask-repeat: no-repeat;
+    background-repeat: no-repeat !important;
+    background-size: 100% !important;
+    background: rgba(0, 0, 0, 0.54);
+
+    &-home {
+      mask-image: url('/assets/img/home.svg');
+    }
+    &-looks_one,&-looks_two,&-looks_three{
+        color: #fff;
+        background: #0070b7;
+    }
+    &-looks_one {
+        mask-image: url('/assets/img/looks_one.svg');
+    }
+
+    &-looks_two {
+        mask-image: url('/assets/img/looks_two.svg');
+    }
+
+    &-looks_three {
+        mask-image: url('/assets/img/looks_three.svg');
+    }
+
+    &-landscape {
+        mask-image: url('/assets/img/landscape.svg');
+    }
+    &-delete {
+        mask-image: url('/assets/img/delete.svg');
+    }
+
+}  

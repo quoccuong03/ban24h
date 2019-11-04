@@ -1,0 +1,89 @@
+.sign-in{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    &__box {
+        border: 1px solid #ccc;
+        background-color: #fff;
+        padding: 30px;
+    }
+    
+    &__title{
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 15px;
+
+        &-sub{
+            color: #555
+        }
+    }
+
+    &__form{
+        margin-top: 15px;
+    }
+    
+    &__question{
+        @extend .text-a;
+        color: #555555 !important;
+        
+    }
+
+    &__lost-pass{
+        @extend .text-a;
+        color: red  !important
+    }
+
+    &__line{
+        &--text{
+            margin-left: 5px;
+            margin-right: 5px;
+            font-size: 16px;
+        }
+  
+        &--or{
+            border: 0.5px solid  #ccc;
+            height: 1px;
+            width: 50%;
+            margin-top: 10px;
+        }
+    }
+
+    &__social{
+        margin: auto;
+        display: table;
+        text-align: center
+    }
+
+    &__reset{
+        &-message{
+            margin-top: 20px
+        }
+        &-text{
+            display: inline-flex;
+            margin-bottom: 5px;
+        }
+
+    }
+
+
+    &__button{
+        &:hover {
+            -webkit-transform: translateY(-1px);
+            transform: translateY(-1px);
+            box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+        }
+     
+        &-google {
+            position: relative;
+            margin: 5px;
+  
+        }
+  
+        &-facebook {
+            position: relative;
+            margin: 5px;
+        }
+    }   
+}
+
+.MuiFormHelperText-contained{
+    margin-left: unset
+}

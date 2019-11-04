@@ -1,0 +1,18 @@
+.loader{
+    top: 50%;
+    left: 50%;
+    color: #4caf50;
+    position: absolute;
+    margin-top: -12px;
+    margin-left: -12px;
+    width: 30px !important;
+    height: 30px !important;
+    &__parent{
+        position: relative;
+    }
+    &__img{
+        display: table-caption;
+        margin-top: 50%;
+        margin-left: 50%;
+    }
+}

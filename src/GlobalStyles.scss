@@ -1,0 +1,143 @@
+// style scss
+@import 'scss/style.scss';
+// region Display Flex =========
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-col {
+  @extend .flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.flex-row {
+  @extend .flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.flex-col-1 {
+  @extend .flex-col;
+  flex: 1;
+}
+
+.flex-row-1 {
+  @extend .flex-row;
+  flex: 1;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-wrap {
+  @extend .flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+//region dial
+
+.row1 {
+  @extend .flex-row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.row2 {
+  @extend .flex-row;
+  justify-content: center;
+  align-items: flex-start;
+}
+.row3 {
+  @extend .flex-row;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.row4 {
+  @extend .flex-row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.row5 {
+  @extend .flex-row;
+  justify-content: center;
+  align-items: center;
+}
+.row6 {
+  @extend .flex-row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.row7 {
+  @extend .flex-row;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.row8 {
+  @extend .flex-row;
+  justify-content: center;
+  align-items: flex-end;
+}
+.row9 {
+  @extend .flex-row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.col1{
+  @extend .flex-col;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.col2{
+  @extend .flex-col;
+  justify-content: flex-start;
+  align-items: center;
+}
+.col3{
+  @extend .flex-col;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.col4{
+  @extend .flex-col;
+  justify-content: center;
+  align-items: flex-start;
+}
+.col5{
+  @extend .flex-col;
+  justify-content: center;
+  align-items: center;
+}
+.col6{
+  @extend .flex-col;
+  justify-content: center;
+  align-items: flex-end;
+}
+.col7{
+  @extend .flex-col;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.col8{
+  @extend .flex-col;
+  justify-content: flex-end;
+  align-items: center;
+}
+.col9{
+  @extend .flex-col;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+
+//endregion
+
+//endregion

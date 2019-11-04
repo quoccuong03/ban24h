@@ -1,0 +1,37 @@
+.text-xl {
+    font-size: 24px;
+}
+
+.text-sm {
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
+.text-a {
+    text-decoration: none;
+}
+
+.text-a:hover {
+    text-decoration: underline;
+}
+
+.text-right {
+    text-align: right
+}
+
+.text-left {
+    text-align: left
+}
+
+.text-center {
+    text-align: center
+}
+
+.Mui-error {
+    color: #f44336;
+}
+
+.money-text {
+    text-transform: capitalize;
+}
